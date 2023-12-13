@@ -1,0 +1,38 @@
+.each-news {
+  width: 22%;
+  height: 22%;
+  background-color: aliceblue;
+  margin: 5px;
+}
+.news-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.each-news img {
+  width: 100%;
+  height: 200px;
+}
+.each-news p {
+  font-size: small;
+}
+.author {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  row-gap: 5px;
+  color: black;
+  font-weight: bold;
+}
+.author p {
+  margin: 0;
+}
+.main-div h1 {
+  text-align: center;
+  background-color: cadetblue;
+}
+.search {
+  border-radius: 50%;
+  margin-left: 20px;
+  color: lightgreen;
+}
